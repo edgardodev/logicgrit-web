@@ -4,13 +4,13 @@ Fecha de preparación: 2026-11-26. Rama: `docs/politica-privacidad-meta-lia`.
 ## Estado y alcance
 - Sitio comercial público `logicgrit-web` es estático y despliega automáticamente a producción desde `main`. Esta rama **no debe integrarse** ni marcarse lista hasta completar las validaciones.
 - Páginas propuestas: `/politica-de-privacidad/` y `/eliminacion-de-datos/`. `noindex,nofollow` y aviso de borrador deben retirarse cuando esté aprobado el contenido final.
-- `contacto@logicgrit.com` figura en el sitio existente y el propietario confirmó que funciona; verificar procedimiento interno para responder solicitudes de privacidad.
+- `contacto@logicgrit.com` figura en el sitio existente y el propietario confirmó que funciona. Ya no debe etiquetarse como correo «sin confirmar». Verificar procedimiento interno para recibir y responder solicitudes de privacidad.
 - La página corporativa no reemplaza las políticas ni avisos de cada negocio cliente de Lía.
 - **Finalidad del producto declarada por el propietario:** LogicGrit Lía es software CRM para cada negocio: organizar clientes, seguimiento de ventas y, al habilitarse las funciones, citas y pedidos. WhatsApp es el canal de entrada; una posible integración de IA sirve solo para interpretar mensajes y tabular información en el CRM. LogicGrit no crea, entrena ni comercializa modelos de IA, y no vende ni permite entrenar modelos con los datos de los clientes. **Confirmar contractualmente la misma restricción con cada proveedor técnico/IA antes de activarlo.**
 - **Estado técnico:** la IA para tabulación de mensajes de WhatsApp y las funciones de agenda/pedidos no deben presentarse como listas para producción si aún están pendientes.
 
 ## Bloqueos antes de publicar o enviar a Meta
-1. Completar **nombre civil/razón social exacta del responsable**, domicilio/dirección de notificaciones y teléfono de contacto. No inventar datos personales ni publicar NIT sin revisar si es necesario.
+1. Completar **nombre civil/razón social exacta del responsable** y domicilio/dirección de notificaciones. El propietario confirmó que `contacto@logicgrit.com` funciona. El teléfono comercial **+57 310 462 0827** consta en el sitio web; verificar si también se atenderán allí solicitudes de privacidad o se recibirán únicamente por correo. No inventar datos personales ni publicar NIT sin evaluar su necesidad.
 2. Revisar con asesor legal colombiano: Ley 1581/2012, Decreto 1074/2015, Circular Externa SIC 002/2024 para IA; condiciones comerciales y de servicio, política de cookies y protección del consumidor según corresponda.
 3. Definir y documentar **matriz de retención** (historial, mensajes, contactos, autorizaciones, auditoría, cuentas, pagos, backups). No prometer borrado automático ni plazos no implementados. Validar procedimiento interno de solicitudes de derechos y responsables de atención.
 4. Verificar contratos y salvaguardas con **Meta/WhatsApp**, **Cloudflare**, proveedores de hosting, encargados y eventuales terceros de IA; transmisión/transferencia internacional, finalidad y país de tratamiento.
