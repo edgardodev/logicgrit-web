@@ -1,0 +1,26 @@
+/* Borrador legal: estilos independientes, sin alterar el inicio existente. */
+.legal-header{position:static;background:rgba(3,17,31,.92);border-bottom:1px solid var(--line)}
+.legal-header .nav-wrap{height:auto;min-height:86px;justify-content:space-between}
+.legal-header .brand{min-width:0}
+.legal-header .back-link{color:var(--cyan);font-weight:650}
+.legal-main{padding:58px 0 96px}
+.legal-hero{max-width:860px;margin:0 auto 36px}
+.legal-kicker{text-transform:uppercase;letter-spacing:.13em;color:var(--cyan);font-size:.75rem;font-weight:750}
+.legal-hero h1{font-size:clamp(2.1rem,5vw,3.9rem);line-height:1.08;letter-spacing:-.045em;margin:15px 0}
+.legal-hero .lead{font-size:1.1rem;color:#cfdeea;line-height:1.7}
+.legal-draft{max-width:860px;margin:0 auto 28px;padding:16px 20px;border-left:4px solid #ffcb68;background:#392c1b;color:#fff0cf;border-radius:10px}
+.legal-article{max-width:860px;margin:0 auto;display:grid;gap:18px}
+.legal-section{padding:24px clamp(18px,4vw,38px);border:1px solid var(--line);border-radius:20px;background:var(--surface)}
+.legal-section h2{font-size:1.3rem;line-height:1.35;margin:0 0 15px;color:#f4faff}
+.legal-section p,.legal-section li{color:#d4e1ed;line-height:1.78}
+.legal-section p:last-child,.legal-section ul:last-child{margin-bottom:0}
+.legal-section a,.legal-footer a{color:#70e8f4;text-decoration:underline;text-underline-offset:3px}
+.legal-section strong{color:#fff}
+.legal-section mark{background:#5b381d;color:#fff4d7;padding:0 .2em}
+.legal-section ul{padding-left:1.35rem}
+.legal-footer{border-top:1px solid var(--line);padding:30px 0 45px;color:var(--muted)}
+.legal-footer .container{display:flex;gap:22px;flex-wrap:wrap;justify-content:space-between}
+.legal-meta{font-size:.87rem;color:var(--muted);margin-top:18px}
+.skip-link{position:absolute;top:-200px;left:12px;padding:10px;background:var(--cyan);color:#00121d;z-index:99}
+.skip-link:focus{top:10px}
+@media(max-width:660px){.legal-main{padding-top:38px}.legal-header .nav-wrap{min-height:72px}.legal-header .brand-copy small{display:none}.legal-section{border-radius:15px}}
