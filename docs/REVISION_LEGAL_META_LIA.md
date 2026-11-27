@@ -4,8 +4,10 @@ Fecha de preparación: 2026-11-26. Rama: `docs/politica-privacidad-meta-lia`.
 ## Estado y alcance
 - Sitio comercial público `logicgrit-web` es estático y despliega automáticamente a producción desde `main`. Esta rama **no debe integrarse** ni marcarse lista hasta completar las validaciones.
 - Páginas propuestas: `/politica-de-privacidad/` y `/eliminacion-de-datos/`. `noindex,nofollow` y aviso de borrador deben retirarse cuando esté aprobado el contenido final.
-- `contacto@logicgrit.com` figura en el sitio existente, pero **confirmar recepción real** de solicitudes de privacidad.
+- `contacto@logicgrit.com` figura en el sitio existente y el propietario confirmó que funciona; verificar procedimiento interno para responder solicitudes de privacidad.
 - La página corporativa no reemplaza las políticas ni avisos de cada negocio cliente de Lía.
+- **Finalidad del producto declarada por el propietario:** LogicGrit Lía es software CRM para cada negocio: organizar clientes, seguimiento de ventas y, al habilitarse las funciones, citas y pedidos. WhatsApp es el canal de entrada; una posible integración de IA sirve solo para interpretar mensajes y tabular información en el CRM. LogicGrit no crea, entrena ni comercializa modelos de IA, y no vende ni permite entrenar modelos con los datos de los clientes. **Confirmar contractualmente la misma restricción con cada proveedor técnico/IA antes de activarlo.**
+- **Estado técnico:** la IA para tabulación de mensajes de WhatsApp y las funciones de agenda/pedidos no deben presentarse como listas para producción si aún están pendientes.
 
 ## Bloqueos antes de publicar o enviar a Meta
 1. Completar **nombre civil/razón social exacta del responsable**, domicilio/dirección de notificaciones y teléfono de contacto. No inventar datos personales ni publicar NIT sin revisar si es necesario.
